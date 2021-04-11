@@ -13,7 +13,7 @@ Node.JS: Install from the site - https://nodejs.org/en/ take the LTS version bas
 
 JDK 1.8: It is optional, install JDK 1.8+ and make sure class path is set properly. JAVA is require to start Selenium Server on your local environment nothing else.
 
-**Clone the project**
+Clone the project
 
 Run 'npm install'. to install all the dependencies
 
@@ -22,6 +22,7 @@ Run 'npm install'. to install all the dependencies
 To execute the entire test suite in local development, you can use any one of the options mentioned below
 
 Option 1: npx wdio run ./wdio.conf.js
+Option 2: npm run e2e
 
 **Config Files**
 
