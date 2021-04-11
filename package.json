@@ -1,0 +1,30 @@
+{
+  "name": "testing-challenge-1",
+  "version": "1.0.0",
+  "description": "A testing  challenge to be solved as part of a screening process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "npx wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ettiennegous/testing-challenge-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ettiennegous/testing-challenge-1/issues"
+  },
+  "homepage": "https://github.com/ettiennegous/testing-challenge-1#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.3.1",
+    "@wdio/cucumber-framework": "^7.3.1",
+    "@wdio/local-runner": "^7.3.1",
+    "@wdio/spec-reporter": "^7.3.1",
+    "@wdio/sync": "^7.3.1",
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
